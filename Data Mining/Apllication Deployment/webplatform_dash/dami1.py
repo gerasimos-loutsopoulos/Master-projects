@@ -1,21 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # =============================================================================
-# Created By  : luis-eduardo@dsv.su.se
 # Created Date: 2020/06/30
 # =============================================================================
-"""
-Course: Data Mining for Computer and Systems Sciences
 
-Homework 3.3: Model Deployment
 
-Creates a web platform to interact with the webserver
-"""
 # =============================================================================
 # Imports
 # =============================================================================
 
-import helper_dami_homework
+import helper_dami
 
 import dash
 from dash.dependencies import Input, Output, State
@@ -29,12 +23,7 @@ import pickle
 # Main
 # =============================================================================
 
-"""
-VARIABLES TO FILL OUT
 
-STUDENT_TRAINED_MODEL_FILENAME:
-The filename specified should be located in the folder `HW3/`
-"""
 STUDENT_TRAINED_MODEL_FILENAME = "model_diabetes.pickle"
 
 # Relative paths respect to current file

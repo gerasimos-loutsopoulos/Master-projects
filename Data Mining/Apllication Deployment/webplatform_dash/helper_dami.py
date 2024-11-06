@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# =============================================================================
-# Created By  : luis-eduardo@dsv.su.se
-# Created Date: 2020/06/30
+
 # =============================================================================
 """
 Creation of HTML webpage with Dash and visualization with Plotly.
