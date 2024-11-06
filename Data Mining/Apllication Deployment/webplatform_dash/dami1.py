@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 # =============================================================================
 # Created Date: 2020/06/30
 # =============================================================================
@@ -50,7 +49,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash("dami_homework", external_stylesheets=external_stylesheets)
 
 # In the additional file `helper_dami_homework` is hidden all webpage' structure
-app.layout = helper_dami_homework.app_html_layout
+app.layout = helper_dami.app_html_layout
 
 # =============================================================================
 # Callbacks to setup the interaction between webpage and controls
@@ -123,7 +122,7 @@ def update_age(value):
     Input(component_id='submit', component_property='n_clicks')]
 )
 def update_histogram(colname, n_clicks):
-    return helper_dami_homework.update_histogram(colname, sample)
+    return helper_dami.update_histogram(colname, sample)
 
 @app.callback(
     Output(component_id='graph-scatter', component_property='figure'),
@@ -132,7 +131,7 @@ def update_histogram(colname, n_clicks):
     Input(component_id='submit', component_property='n_clicks')]
 )
 def update_scatter(col1, col2, n_clicks):
-    return helper_dami_homework.update_scatter(col1, col2, sample)
+    return helper_dami.update_scatter(col1, col2, sample)
 
 
 # Classification Button
