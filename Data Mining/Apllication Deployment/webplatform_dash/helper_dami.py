@@ -2,8 +2,7 @@
 # =============================================================================
 """
 Creation of HTML webpage with Dash and visualization with Plotly.
-This file is called from the `dami_analytics.py`, and its main goal
-is to make the main code more readable.
+
 """
 # =============================================================================
 # Imports
@@ -109,7 +108,7 @@ Structure of the HTML webpage using Dash library
 """
 app_html_layout = html.Div([
 
-    html.Center(html.H1("HW3 - DAMI - Diabetes Classification")),
+    html.Center(html.H1("Diabetes Classification")),
 
     html.Div("This app predicts whether or not a patient has diabetes, based on diagnostic measurements. "),
 

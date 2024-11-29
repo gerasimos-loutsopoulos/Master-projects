@@ -23,11 +23,11 @@ import pickle
 # =============================================================================
 
 
-STUDENT_TRAINED_MODEL_FILENAME = "model_diabetes.pickle"
+TRAINED_MODEL_FILENAME = "model_diabetes.pickle"
 
 # Relative paths respect to current file
 THIS_FILE_PATH = str(Path(__file__).parent.absolute())+"/"
-filename_to_load = THIS_FILE_PATH + STUDENT_TRAINED_MODEL_FILENAME
+filename_to_load = THIS_FILE_PATH + TRAINED_MODEL_FILENAME
 
 print('Loading pickle file with trained model from', filename_to_load)
 
