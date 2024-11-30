@@ -20,3 +20,16 @@ This project is a web-based application built using the Dash framework. It predi
    - `model_diabetes.pickle`: The pre-trained machine learning model used for predictions.
    - `helper_dami.py`: A file containing the layout and helper functions for the application.
    - `main.py`: The main application file (this is the file you'll execute).
+
+2. **Run the application**:
+   Open a terminal or command prompt, navigate to the project directory, and run the following command:
+   python main.py
+   After running the above command, the application will start a local server.
+   Open your web browser and go to:
+   http://127.0.0.1:8050/
+
+
+
+## Acknowledgments
+
+- **Dataset**: The diabetes dataset is sourced from [Kaggle: Pima Indians Diabetes Database](https://www.kaggle.com/uciml/pima-indians-diabetes-database/data).
